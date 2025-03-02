@@ -1,0 +1,454 @@
+{
+  "uuid": "878f25f0f7e8c0a412cf30ce84b64938",
+  "path": "Offline/RocketBoardV4",
+  "name": "RocketBoardV4",
+  "content": "",
+  "created_at": "2025-02-28 16:12:41",
+  "updated_at": "2025-03-02 20:26:25",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "78b51a73210b171aea884fe711ff1f47",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "29a9ed4bd7e44ab5b1151bac840be6d3": 1,
+        "a9aa2b14f188405792fa87ac344499a4": 1,
+        "b0248eb51e084227889f2cb84eab79c4": 8,
+        "5cbe824183374fac8e4c1ae848199ce3": 2,
+        "20b37122052a4452998e1fe41d6cf920": 1,
+        "86a3fb64d5db492fb1ab0b4df0021b9e": 2,
+        "b82150387a2041b4afd55b90c79c5923": 5,
+        "d0471182e2ca4ea09c30b662d80ac054": 1,
+        "24eeb2ceca08480b92b847b6a310acda": 15,
+        "6ddcc781f38848eeae827fec1d6d8005": 1,
+        "dc0fa062e09a41408c16dbb49b24c67b": 1,
+        "ddf1943442e2f37b518d778d4d60c3aa": 1,
+        "23d103fdf5ea8c029d75ceab1d9b60e1": 1,
+        "dd6edc3c45354f35a0c98835a0b21621": 1,
+        "a0828df9bb03488aa29685428cb4b7fb": 4,
+        "bb009484ef804a24ac5d18c54b249586": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "DHT-4235A",
+          2,
+          "SW4-SMD-4.2X3.2X2.5MM",
+          "BUTTON1,NRST1",
+          {
+            "description": "SMD Button Top",
+            "Manufacturer Part": "DHT-4235A",
+            "puuid": "c84c35bf40a143c886fb340bedc835c1",
+            "uuid": "86a3fb64d5db492fb1ab0b4df0021b9e"
+          }
+        ],
+        [
+          "2.2u",
+          2,
+          "C0603",
+          "C1,C2",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "0.1u",
+          2,
+          "C0603",
+          "C1B,C2B",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0805_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "b82150387a2041b4afd55b90c79c5923"
+          }
+        ],
+        [
+          "100n",
+          1,
+          "C0603",
+          "C1NR",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0805_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "b82150387a2041b4afd55b90c79c5923"
+          }
+        ],
+        [
+          "1u",
+          3,
+          "C0603",
+          "C1R,C2R,C9",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "10n",
+          1,
+          "C0603",
+          "C1_G",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "0.1u",
+          8,
+          "C0603",
+          "C2_G,C3,C3_G,C4,C5,C6,C8,C_BTN1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "4.7u",
+          1,
+          "C0603",
+          "C7",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "1u",
+          1,
+          "C0805",
+          "C10",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0805_US",
+            "Manufacturer Part": "",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "b82150387a2041b4afd55b90c79c5923"
+          }
+        ],
+        [
+          "0.1u",
+          1,
+          "C0805",
+          "C11",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0805_US",
+            "Manufacturer Part": "",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "b82150387a2041b4afd55b90c79c5923"
+          }
+        ],
+        [
+          "HDR-F-2.54_2x3",
+          1,
+          "HDR-F-2.54_2X3",
+          "H1",
+          {
+            "Supplier Part": "C65114",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-F-2.54_2x3",
+            "puuid": "ed475878177542439f19cf421334d9ed",
+            "uuid": "dd6edc3c45354f35a0c98835a0b21621"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          1,
+          "HDR-M-2.54_1X2",
+          "J1",
+          {
+            "Supplier Part": "C124375",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x2",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "HDR-M-2.54_2x6",
+          1,
+          "HDR-M-2.54_2X6",
+          "J2",
+          {
+            "Supplier Part": "C124388",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_2x6",
+            "puuid": "4dd21fdff65e48e89ebd6165b3a5cb41",
+            "uuid": "29a9ed4bd7e44ab5b1151bac840be6d3"
+          }
+        ],
+        [
+          "LED-0603_R",
+          2,
+          "LED0603_RED",
+          "LED1,PWLED1",
+          {
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "Supplier Part": "C72044",
+            "Supplier": "LCSC",
+            "link": "",
+            "Contributor": "LCEDA_01",
+            "spiceSymbolName": "LED-0603_R",
+            "puuid": "1efb3a885b5b4aecb6d41221a8f4d86b",
+            "uuid": "5cbe824183374fac8e4c1ae848199ce3"
+          }
+        ],
+        [
+          "10k",
+          3,
+          "R0603",
+          "R1B,R_LED1,R_PWLED1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "4k7",
+          4,
+          "R0603",
+          "R1I2C,R1I2C2,R2I2C,R2I2C2",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R0603",
+          "R1NR",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "20b37122052a4452998e1fe41d6cf920"
+          }
+        ],
+        [
+          "4.7k",
+          1,
+          "R0603",
+          "RP",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R0603",
+          "R_BTN1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "S4B-ZR-SM4A-TF(LF)(SN)",
+          4,
+          "CONN-SMD_4P-P1.50_S4B-ZR-SM4A-TF-LF-SN",
+          "U1,U3,U5,U6",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C485354",
+            "Manufacturer": "JST",
+            "Manufacturer Part": "S4B-ZR-SM4A-TF(LF)(SN)",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "S4B-ZR-SM4A-TF(LF)(SN)",
+            "puuid": "9071dbd72e714872835f93f4db144224",
+            "uuid": "a0828df9bb03488aa29685428cb4b7fb"
+          }
+        ],
+        [
+          "BMP280",
+          1,
+          "LGA-8_L2.5-W2.0-P0.65_AMP6127",
+          "UB",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "Bosch(博世)",
+            "Manufacturer Part": "",
+            "Supplier Part": "C83291",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "BMP280",
+            "puuid": "f658883831f84ba9bfa37006c7319a5b",
+            "uuid": "dc0fa062e09a41408c16dbb49b24c67b"
+          }
+        ],
+        [
+          "MPU9250-V",
+          1,
+          "MPU9250",
+          "UG",
+          {
+            "Manufacturer Part": "MPU9250-V",
+            "Contributor": "advulcan",
+            "spiceSymbolName": "MPU9250-V",
+            "puuid": "6618fa464f1145758476309d64c10419",
+            "uuid": "6ddcc781f38848eeae827fec1d6d8005"
+          }
+        ],
+        [
+          "XC6206P332MR-G",
+          1,
+          "SEEED-SOT-23",
+          "REG3",
+          {
+            "description": "SMD PMIC;LDO;Vin 6V;3.3V;200mA;Without En;1-Ch",
+            "sourceId": "sIGDBzxv5",
+            "timeStamp": "1448004460",
+            "Manufacturer Part": "",
+            "spiceSymbolName": "XC6206P332MR-G",
+            "puuid": "325c2d767b1b4dea98e7d8cca89b8895",
+            "uuid": "d0471182e2ca4ea09c30b662d80ac054"
+          }
+        ],
+        [
+          "STM32F405RGT6",
+          1,
+          "LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL",
+          "US1",
+          {
+            "tags": "STM32",
+            "subpart_no": "1",
+            "image": "http://image.lceda.cn/szlcsc/C15742.jpg",
+            "Supplier Part": "C15742",
+            "Supplier": "LCSC",
+            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "STM32F405RGT6",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "STM32F405RGT6",
+            "puuid": "2afd511af2e94adea785d3da1efd72a1",
+            "uuid": "23d103fdf5ea8c029d75ceab1d9b60e1"
+          }
+        ]
+      ],
+      "updateTime": 1740935157,
+      "createTime": 1740748362,
+      "histories": [],
+      "created_at": "2025-02-28 16:12:42",
+      "updated_at": "2025-03-02 20:05:57"
+    },
+    {
+      "uuid": "76d17662ffa8eccbb614ca1fbb66ff05",
+      "puuid": "5c28607b70463e3c3162f2b6ea123bb9",
+      "title": "PCB_RocketBoardV4",
+      "filename": "PCB_RocketBoardV4.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "2afd511af2e94adea785d3da1efd72a1": 1,
+        "398691f1f785460098bbe5ee6590333c": 10,
+        "f658883831f84ba9bfa37006c7319a5b": 1,
+        "6618fa464f1145758476309d64c10419": 1,
+        "2ee8eb13a0124a108e622ce40c0c25a8": 2,
+        "ed475878177542439f19cf421334d9ed": 1,
+        "9071dbd72e714872835f93f4db144224": 4,
+        "f8151fdc728a41ebbc304e11d39e5437": 18,
+        "c84c35bf40a143c886fb340bedc835c1": 2,
+        "1efb3a885b5b4aecb6d41221a8f4d86b": 2,
+        "325c2d767b1b4dea98e7d8cca89b8895": 1,
+        "70aa5812f21f4991bf427395d51849f4": 1,
+        "4dd21fdff65e48e89ebd6165b3a5cb41": 1
+      },
+      "BOM": [],
+      "updateTime": 1740936385,
+      "createTime": 1740748447,
+      "histories": [],
+      "created_at": "2025-02-28 16:14:07",
+      "updated_at": "2025-03-02 20:26:25"
+    }
+  ],
+  "sort": [],
+  "title": "RocketBoardV4",
+  "foldername": "RocketBoardV4",
+  "schfilename": "RocketBoardV4.json",
+  "schfilemtime": 1740935157785
+}

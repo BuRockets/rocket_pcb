@@ -1,0 +1,283 @@
+{
+  "uuid": "6b42f26033d71041cbde4b0cab63a6bb",
+  "path": "Offline/RocketPDBV4",
+  "name": "RocketPDBV4",
+  "content": "",
+  "created_at": "2025-03-01 11:34:12",
+  "updated_at": "2025-03-02 20:25:06",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "e46daeac96438068de8a9b4094f1f732",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "e602f8fbdd26490face102ae4d76d4b0": 1,
+        "35971a76f4454482bb832c7f7e7235f8": 2,
+        "b0248eb51e084227889f2cb84eab79c4": 6,
+        "24eeb2ceca08480b92b847b6a310acda": 10,
+        "a4eacdcb63554cb08b3b56477817ab57": 2,
+        "3ec77201bbcd4ecd8722658d581a4e60": 1,
+        "5cbe824183374fac8e4c1ae848199ce3": 2,
+        "ae59b014d51c426f91e876d9bd0cead3": 6,
+        "686b4e14311145f5bc625932382f5347": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "22u",
+          4,
+          "C0805",
+          "C1SR,C2SR,C6SR,C7SR",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "10u",
+          2,
+          "C0805",
+          "C3SR,C10SR",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "0.1u",
+          4,
+          "C0805",
+          "C4SR,C5SR,C8SR,C9SR",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "S3B-ZR-SM4A-TF(LF)(SN)",
+          6,
+          "CONN-TH_S3B-ZR-SM4A-TF-LF-SN",
+          "CN2,CN3,CN4,CN5,CN6,CN7",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C72591",
+            "Manufacturer": "JST",
+            "Manufacturer Part": "S3B-ZR-SM4A-TF(LF)(SN)",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "S3B-ZR-SM4A-TF(LF)(SN)",
+            "puuid": "5782994b7d964d91910e1cf1abc73bc2",
+            "uuid": "ae59b014d51c426f91e876d9bd0cead3"
+          }
+        ],
+        [
+          "HDR-F-2.54_2x6",
+          1,
+          "HDR-F-2.54_2X6",
+          "H1",
+          {
+            "Supplier Part": "C36191",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-F-2.54_2x6",
+            "puuid": "31cabe521ead42d196ac8bae30b2f27a",
+            "uuid": "e602f8fbdd26490face102ae4d76d4b0"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x2",
+          1,
+          "HDR-F-2.54_1X2",
+          "H2",
+          {
+            "Supplier Part": "C49661",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-F-2.54_1x2",
+            "puuid": "36b1306a115341f4b4d9407fb34974e0",
+            "uuid": "3ec77201bbcd4ecd8722658d581a4e60"
+          }
+        ],
+        [
+          "10uH",
+          2,
+          "L1210",
+          "L1,L2",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "L0603_US",
+            "Manufacturer Part": "",
+            "puuid": "b5c2ba67075f4e40a986e23d376da14f",
+            "uuid": "a4eacdcb63554cb08b3b56477817ab57"
+          }
+        ],
+        [
+          "LED-0603_R",
+          2,
+          "LED0603_RED",
+          "PWLED1,PWLED2",
+          {
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "Supplier Part": "C72044",
+            "Supplier": "LCSC",
+            "link": "",
+            "Contributor": "LCEDA_01",
+            "spiceSymbolName": "LED-0603_R",
+            "puuid": "1efb3a885b5b4aecb6d41221a8f4d86b",
+            "uuid": "5cbe824183374fac8e4c1ae848199ce3"
+          }
+        ],
+        [
+          "100k",
+          2,
+          "R0603",
+          "R1SR,R4SR",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "13.3k",
+          2,
+          "R0603",
+          "R2SR,R3SR",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "10k",
+          2,
+          "R0603",
+          "R_PWLED1,R_PWLED2",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "TPS54308DDCT",
+          2,
+          "TSOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR",
+          "U1,U5",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2071054",
+            "Manufacturer": "TI(德州仪器)",
+            "Manufacturer Part": "TPS54308DDCT",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "TPS54308DDCT",
+            "puuid": "c5533f37e54f4bd0a361fb90c38aa932",
+            "uuid": "35971a76f4454482bb832c7f7e7235f8"
+          }
+        ],
+        [
+          "B5B-ZR-(LF)(SN)",
+          1,
+          "CONN-TH_5P-P1.50_B5B-ZR-LF-SN",
+          "U2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C157990",
+            "Manufacturer": "JST",
+            "Manufacturer Part": "B5B-ZR(LF)(SN)",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "B5B-ZR-(LF)(SN)",
+            "puuid": "7789b87c241c423e89d25288fb7b06f4",
+            "uuid": "686b4e14311145f5bc625932382f5347"
+          }
+        ]
+      ],
+      "updateTime": 1740862201,
+      "createTime": 1740818053,
+      "histories": [],
+      "created_at": "2025-03-01 11:34:13",
+      "updated_at": "2025-03-01 23:50:01"
+    },
+    {
+      "uuid": "20c361b29d6836ace30789b2c2e2be25",
+      "puuid": "6b42f26033d71041cbde4b0cab63a6bb",
+      "title": "PCB_RocketPDBV4",
+      "filename": "PCB_RocketPDBV4.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "5782994b7d964d91910e1cf1abc73bc2": 6,
+        "7789b87c241c423e89d25288fb7b06f4": 1,
+        "31cabe521ead42d196ac8bae30b2f27a": 1,
+        "36b1306a115341f4b4d9407fb34974e0": 1,
+        "1efb3a885b5b4aecb6d41221a8f4d86b": 2,
+        "398691f1f785460098bbe5ee6590333c": 6,
+        "2ee8eb13a0124a108e622ce40c0c25a8": 10,
+        "b5c2ba67075f4e40a986e23d376da14f": 2,
+        "c5533f37e54f4bd0a361fb90c38aa932": 2
+      },
+      "BOM": [],
+      "updateTime": 1740936306,
+      "createTime": 1740818296,
+      "histories": [],
+      "created_at": "2025-03-01 11:38:16",
+      "updated_at": "2025-03-02 20:25:06"
+    }
+  ],
+  "sort": [],
+  "title": "RocketPDBV4",
+  "foldername": "RocketPDBV4",
+  "schfilename": "RocketPDBV4.json",
+  "schfilemtime": 1740862201956
+}
